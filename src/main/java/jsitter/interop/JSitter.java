@@ -24,7 +24,7 @@ public class JSitter {
 
     static {
         try {
-            File jsitter = Native.extractFromResourcePath("jsitter", JSitter.class.getClassLoader());
+            File jsitter = Native.extractFromResourcePath("libjsitter", JSitter.class.getClassLoader());
             System.load(jsitter.getAbsolutePath());
         } catch (Throwable e) {
             throw new RuntimeException(e);
