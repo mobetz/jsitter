@@ -139,7 +139,7 @@
                         linux-x86-64/libjsitter.so
                     </include>
                     <include>
-                        win32-x86-64/jsitter.dll
+                        win32-x86-64/libjsitter.dll
                     </include>
                 </includes>
             </resource>
